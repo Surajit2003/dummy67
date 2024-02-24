@@ -13,7 +13,7 @@ const TravelGuide = () => {
                 <div className="guide-item">
                     <div className="guide-img">
                         <div className="guide-img-efects">
-                            <img src="img/guide-1.jpg" className="img-fluid w-100 rounded-top" alt="Image"/>
+                            <img src="img/guide-1.jpg" className="img-fluid w-100 rounded-top" alt="guides"/>
                         </div>
                         <div className="guide-icon rounded-pill p-2">
                             <a className="btn btn-square btn-primary rounded-circle mx-1" href="/"><i className="fab fa-facebook-f"></i></a>
@@ -34,7 +34,7 @@ const TravelGuide = () => {
                 <div className="guide-item">
                     <div className="guide-img">
                         <div className="guide-img-efects">
-                            <img src="img/guide-2.jpg" className="img-fluid w-100 rounded-top" alt="Image"/>
+                            <img src="img/guide-2.jpg" className="img-fluid w-100 rounded-top" alt="guides"/>
                         </div>
                         <div className="guide-icon rounded-pill p-2">
                             <a className="btn btn-square btn-primary rounded-circle mx-1" href="/"><i className="fab fa-facebook-f"></i></a>
@@ -55,7 +55,7 @@ const TravelGuide = () => {
                 <div className="guide-item">
                     <div className="guide-img">
                         <div className="guide-img-efects">
-                            <img src="img/guide-3.jpg" className="img-fluid w-100 rounded-top" alt="Image"/>
+                            <img src="img/guide-3.jpg" className="img-fluid w-100 rounded-top" alt="guides"/>
                         </div>
                         <div className="guide-icon rounded-pill p-2">
                             <a className="btn btn-square btn-primary rounded-circle mx-1" href="/"><i className="fab fa-facebook-f"></i></a>
@@ -76,7 +76,7 @@ const TravelGuide = () => {
                 <div className="guide-item">
                     <div className="guide-img">
                         <div className="guide-img-efects">
-                            <img src="img/guide-4.jpg" className="img-fluid w-100 rounded-top" alt="Image"/>
+                            <img src="img/guide-4.jpg" className="img-fluid w-100 rounded-top" alt="guides"/>
                         </div>
                         <div className="guide-icon rounded-pill p-2">
                             <a className="btn btn-square btn-primary rounded-circle mx-1" href="/"><i className="fab fa-facebook-f"></i></a>

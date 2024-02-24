@@ -1,5 +1,5 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -15,41 +15,41 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto py-0">
                         <NavLink to="/" className="nav-item nav-link">Home</NavLink>
-                        <NavLink to="/about" className="nav-item nav-link active">About</NavLink>
+                        <NavLink to="/about" className="nav-item nav-link">About</NavLink>
+                        <NavLink to="/contact" className="nav-item nav-link">Contact</NavLink>
                     </div>
-                    <NavLink to ="/contact" className="nav-item nav-link">Contact</NavLink>
                 </div>
                 <NavLink to="" className="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Book Now</NavLink>
-        
+
             </nav >
         </div >
 
 
 
-//     <nav className="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
-//   <div className="container-fluid">
-//     <NavLink className="navbar-brand" to="/">Navbar</NavLink>
-//     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-//       <span className="navbar-toggler-icon"></span>
-//     </button>
-//     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-//       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-//         <li className="nav-item">
-//           < NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
-//         </li>
-//         <li className="nav-item">
-//           <NavLink className="nav-link" to="/about">About</NavLink>
-//         </li>
+        //     <nav className="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+        //   <div className="container-fluid">
+        //     <NavLink className="navbar-brand" to="/">Navbar</NavLink>
+        //     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        //       <span className="navbar-toggler-icon"></span>
+        //     </button>
+        //     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        //       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        //         <li className="nav-item">
+        //           < NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
+        //         </li>
+        //         <li className="nav-item">
+        //           <NavLink className="nav-link" to="/about">About</NavLink>
+        //         </li>
 
-//       </ul>
-//       <form className="d-flex" role="search">
-//         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-//         <button className="btn btn-outline-success" type="submit">Search</button>
-//       </form>
-//     </div>
-//   </div>
-// </nav>
-  )
-}
+        //       </ul>
+        //       <form className="d-flex" role="search">
+        //         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        //         <button className="btn btn-outline-success" type="submit">Search</button>
+        //       </form>
+        //     </div>
+        //   </div>
+        // </nav>
+    );
+};
 
-export default Navbar
+export default Navbar;
