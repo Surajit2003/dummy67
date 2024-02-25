@@ -9,24 +9,17 @@ import Contact from "./components/Contact.js";
 import './App.css';
 
 function App() {
-  return (
-    <div>
-
-      <Router>
-        <Topbar />
-        <Navbar />
-        <Routes>
-
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/contact" element={<Contact />} />
-
-
-        </Routes>
-      </Router>
-
-    </div>
-  );
+	return (
+		<Router>
+			<Topbar />
+			<Navbar />
+			<Routes>
+				<Route exact path="/" element={<Home />} />
+				<Route exact path="/about" element={<About />} />
+				<Route exact path="/contact" element={<Contact />} />
+			</Routes>
+		</Router>
+	);
 }
 
 export default App;
